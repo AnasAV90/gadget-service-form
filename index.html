@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!--Meta-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta content="charset=utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!--SEO-->
+  <meta property="og:title" content="Fix Squad" />
+  <meta property="og:image" content="https://res.cloudinary.com/dz9tay9eg/image/upload/v1662999082/website/common/fixsquad-logo_d0dgos_hewvxq.png" />
+  <meta property="og:description" content="">
+  <meta name="description" content="">
+  <title>Fixsquad</title>
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/style/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/style/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/style/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/style/images/favicon/site.webmanifest">
+  <!--css-->
+  <link rel="stylesheet" href="/style/css/common.css?ver=1.3" />
+  <link rel="stylesheet" href="/style/css/main.css?ver=1.3" />
+  <link rel="stylesheet" href="/style/css/form.css?ver=1.3" />
+  <link rel="stylesheet" href="/style/css/index.css?ver=1.3" />
+  <!--google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!--Main Container-->
+  <main id="mainContainer" class="">
+    <header class="section">
+      <a id="logo" href="/">
+        <img
+          src="https://res.cloudinary.com/dz9tay9eg/image/upload/v1662999082/website/common/fixsquad-logo_d0dgos_hewvxq.png"
+          alt="">
+      </a>
+    </header>
+    <!--Wall Section-->
+    <section id="wallSection" class="sectionSpace">
+      <form id="wallSlideWrapper" class="contactForm" method="post" action="">
+        <div id="devices" class="slide section" slide="1">
+          <h1 class="heading">Choose Device</br> you want to Fix.</span></h1>
+          <ul class="optionDiv">
+            <li class="mobileDevice deviceSelect" device="mobile">
+              <img
+                src="https://res.cloudinary.com/dz9tay9eg/image/upload/v1662998775/website/devices/Mobile_m103pw_tqtf8v.png"
+                alt="">
+              <input id="mobile" type="radio" name="mobile" field="mobile" value="mobile" array="device" />
+              <label for="mobile">Mobile</label>
+            </li>
+             
+            <li class="laptopDevice deviceSelect" device="laptop">
+              <img
+                src="https://res.cloudinary.com/dz9tay9eg/image/upload/v1662998775/website/devices/Laptop_mmjsn8_uzxy96.png"
+                alt="">
+              <input id="laptop" type="radio" name="laptop" field="laptop" value="laptop" array="device" />
+              <label for="laptop">Laptop</label>
+            </li>
+            <li class="otherDevice deviceSelect" device="gaming-console">
+              <img
+                src="https://res.cloudinary.com/dz9tay9eg/image/upload/v1662998775/website/devices/Gaming_b2ph4b_yvdzgt.png"
+                alt="">
+              <input id="gaming-console" type="radio" name="gaming-console" field="gaming-console" value="gaming-console"
+                array="device" />
+              <label for="gaming-console">Gaming Console</label>
+            </li>
+            <li class="otherDevice deviceSelect" device="other-device">
+              <img
+                src="https://res.cloudinary.com/dz9tay9eg/image/upload/v1662998775/website/devices/otherDevices_a7vtij_qbakml.png"
+                alt="">
+              <input id="other-device" type="radio" name="other-device" field="other-device" value="other-device"
+                array="device" />
+              <label for="other-device">Other Device</label>
+            </li>
+          </ul>
+        </div>
+        <div class="slide section">
+          <div class="formSection content">
+            <div class="formDiv">
+                
+              <h2 class="heading">What are your</br> contact details?</span></h2>
+              
+              <div class="inputDiv lgDiv">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="" required inputDiv>
+                <span class="messageBox"></span>
+              </div>
+              <div class="inputDiv lgDiv">
+                <label for="phone">Mobile</label>
+                <input type="text" class="mobile-valid" inputmode="numeric" id="phone" name="phone" placeholder="" required="" inputDiv>
+                <span class="messageBox"></span>
+              </div>
+              <div class="inputDiv lgDiv">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="" required="" inputDiv>
+                <span class="messageBox"></span>
+              </div>
+              <div class="inputDiv lgDiv">
+                <label for="issue">Describe your issue:</label>
+                <textarea name="issue" id="issue" inputDiv required></textarea>
+                <span class="messageBox" mode=""></span>
+              </div>
+              <button id="contactSubmit" class="btn btn1 lgBtn">Book <span style="display: none;"
+                  class="loader"></span></button>
+                  <p class="thanks"></p>
+            </div>
+
+          </div>
+          <a onclick="sideScrollCards('wallSlideWrapper', 'slide', 'prev');" class="btn  btn5 xlBtn nextBtn">Back</a>
+        </div>
+
+      </form>
+<img class="review" src="https://res.cloudinary.com/dz9tay9eg/image/upload/v1662998746/website/common/4.8-google-review_malnbl_eg406e.jpg" alt="" style="
+    width: 180px;
+    margin: 0 auto;
+    margin-top: 1rem;
+">
+    </section>
+    <!--About Section-->
+    <section id="aboutSection" class="section sectionSpace">
+      <div class="specialitiesDiv">
+        <div class="specialities">
+          <div class="textDiv">
+            <h2 class="text">60 min</h2>
+            <p>Average Time Of Fixing</p>
+          </div>
+        </div>
+        <div class="specialities">
+          <div class="textDiv">
+            <h2 class="text">3000+</h2>
+            <p>Devices Fixed Monthly</p>
+          </div>
+        </div>
+        <div class="specialities">
+          <div class="textDiv">
+            <h2 class="text">50k+</h2>
+            <p>Happy Customers</p>
+          </div>
+        </div>
+      </div>
+      <h2 class="heading">We fix things close to your heart</h2>
+      <p>We are a genuine fixing Service based in Dubai, UAE, having more than 7 years of experience in this
+        field. We specialize in all Mobile, Tablet, Laptop, Game Consoles, Printer Services. We
+        take utmost care in providing the best, and the most reliable and efficient solution for all our clients.</p>
+     
+    </section>
+
+    <!--footer Section-->
+    <section id="footerSection" class="section">
+
+      <p>Fixsquad Copyright 2022 , All Rights Reserved</p>
+      <div class="link">
+        <a href="/terms-of-use.html">Terms of use</a>
+        <a href="/privacy-policy.html">Privacy Policy</a>
+      </div>
+      <a target="_blank" href="https://salesmagnitude.com/">Marketed by <span>Sales Magnitude</span></a>
+    </section>
+
+  </main>
+  <!--js-->
+  <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+  <script src="/style/js/common.js?ver="></script>
+  <script src="/style/js/form.js?ver="></script>
+  <script>
+    let formData = {};
+    let secondCards = {
+      "mobile": "<h2 class='heading'>Which type of<br> Mobile is it?</h2><ul class='optionDiv'><li class='optionList' onclick='secondCardSelect(event)'><img src='https://res.cloudinary.com/dz9tay9eg/image/upload/v1662998775/website/devices/Mobile_m103pw_tqtf8v.png' alt=''><input id='iphone' type='radio' name='type' field='iphone' value='iphone' array='iphone'><label for='iphone'>Iphone</label></li><li class='optionList' onclick='secondCardSelect(event)'><img src='https://res.cloudinary.com/dz9tay9eg/image/upload/v1662998774/website/devices/81-fNmQqlLL._AC_SX522__va66zm_tlwsuy.jpg' alt=''><input id='android' type='radio' name='type' field='android' value='android' array='android'><label for='android'>Android</label></li></ul>",
+      "laptop": "<h2 class='heading'>Which type of<br> Laptop is it?</h2><ul class='optionDiv'><li class='optionList' onclick='secondCardSelect(event)'><img src='https://res.cloudinary.com/dz9tay9eg/image/upload/v1662998775/website/devices/Laptop_mmjsn8_uzxy96.png' alt=''><input id='mac' type='radio' name='type' field='mac' value='mac' array='mac'><label for='mac'>Mac</label></li><li class='optionList' onclick='secondCardSelect(event)' ><img src='https://res.cloudinary.com/dz9tay9eg/image/upload/v1662998775/website/devices/81KoSSAwH2L._SL1500__oh8sja_nef4ea.jpg' alt=''>\n<input id='windows' type='radio' name='type' field='windows' value='windows' array='windows'><label for='windows'>Windows</label></li></ul>"
+    };
+    let checkFormSubmitted= false;
+    $(document).ready(function () {
+        $(".contactForm").on('submit', function (e) {
+        e.preventDefault();
+         if(checkFormSubmitted){
+          return false;
+      }
+        $("[inputDiv]").each(function(){
+            formData[$(this).attr("id")] = $(this).val();
+        });
+        $(".loader").css('display', 'block');
+        checkFormSubmitted = true;
+        $.ajax({
+          type: "post",
+          url: "/Contact-form.php",
+          data: formData,
+          validation: function () {
+            $(".thanks").text('Please enter correct data').css('color', 'red');
+             checkFormSubmitted = false;
+          },
+          success: function (data) {
+            $("#contactSubmit").hide();
+            location.href = "thankyou.html";
+          }
+        });
+      });
+    });
+
+    $(document).ready(function () {
+      $('.mobile-valid').on('keyup', function (e) {
+        var data = $(this).val();
+        if (data.length > 17) {
+          data = data.slice(0, 16);
+          $(this).val(data);
+        }
+        if (!Number.isInteger(data)) {
+          var newVal = parseInt(data);
+          if (newVal >= 0) {
+            $(this).val(newVal);
+          } else {
+            $(this).val('');
+          }
+        }
+      });
+    });
+
+    /* function for sliding cards*/
+    function sideScrollCards(elementWrapper, cardCalss, direction, increment, animationFunction) {
+      increment = increment || 1;
+      var slideIndex = elementWrapper + 'Index';
+      window[slideIndex] = (typeof window[slideIndex] != 'undefined') ? window[slideIndex] : 0;
+      var cardCalssList = document.getElementsByClassName(cardCalss);
+      var firstCard = cardCalssList[0];
+      var wrapperDiv = document.getElementById(elementWrapper);
+      wrapperDiv.style.transition = 'transform 0.6s ease';
+      var cardNos = cardCalssList.length;
+      var cardWidth = firstCard.offsetWidth;
+      var distanceToTransalte = 0;
+      var wrapperWidth = wrapperDiv.offsetWidth;
+      var cardStyle = firstCard.currentStyle || window.getComputedStyle(firstCard);
+      var wrapperStyle = wrapperDiv.currentStyle || window.getComputedStyle(wrapperDiv);
+      var cardOuterWidth = cardWidth + parseFloat(cardStyle.marginRight) + parseFloat(cardStyle.marginLeft);
+      var wrapperInnerWidth = wrapperWidth - (parseFloat(wrapperStyle.paddingRight) + parseFloat(wrapperStyle
+        .paddingLeft));
+      var totalWidthOfCards = cardOuterWidth * cardNos;
+      if (direction === 'prev') {
+        window[slideIndex] = (window[slideIndex] > 0) ? window[slideIndex] - increment : 0;
+      } else if (direction === 'next') {
+        window[slideIndex] = (window[slideIndex] <= cardNos) ? window[slideIndex] + increment : 0;
+      }
+      console.log('fnindex : ' + window[slideIndex]);
+      //window[slideIndex] = (window[slideIndex] > (cardNos - 1)) ? 0 : window[slideIndex];
+      distanceToTransalte = window[slideIndex] * cardOuterWidth;
+      if (distanceToTransalte > ((totalWidthOfCards - wrapperInnerWidth) + (cardOuterWidth * increment))) {
+        window[slideIndex] = 0;
+        distanceToTransalte = 0;
+      } else if (distanceToTransalte > (totalWidthOfCards - wrapperInnerWidth)) {
+        distanceToTransalte = totalWidthOfCards - wrapperInnerWidth;
+        window[slideIndex] = cardNos;
+      }
+      distanceToTransalte = (distanceToTransalte === 0) ? 0 : '-' + distanceToTransalte;
+      wrapperDiv.style.transform = 'translateX(' + distanceToTransalte + 'px)';
+      if (animationFunction) {
+        animationFunction();
+      }
+      let slides = $("#" + elementWrapper + ' .slide');
+      slides.css("height", '0');
+      slides.css("opacity", '0');
+      const activeSlide = "#" + elementWrapper + ' .slide:nth-child(' + (window[slideIndex] + 1) + ')';
+
+      console.log(activeSlide);
+      $(activeSlide).css("height", 'auto');
+      $(activeSlide).css("opacity", '1');
+    }
+    
+    $(document).ready(function () {
+      $("[device]").on("click", function (e) {
+        e.preventDefault();
+        $("[slide='2']").remove();
+        let seconCardContainer = '<div id="mobileDevices" class="slide section secondCard" slide="2">';
+        let elem = $(this);
+        const device = elem.attr("device");
+        formData["device"] = device;
+        if (device === "laptop" || device === "mobile") {
+          seconCardContainer += secondCards[device];
+          seconCardContainer += `<a onclick="sideScrollCards('wallSlideWrapper', 'slide', 'prev');" class="btn  btn5 xlBtn nextBtn">Back</a>`;
+           seconCardContainer += '</div>';
+          $("[slide ='1']").after(seconCardContainer);
+        }
+        sideScrollCards('wallSlideWrapper', 'slide', 'next');
+      });
+    });
+
+    function secondCardSelect(event) {
+      event.preventDefault();
+      let elem = $(event.target);
+      let value = $("[name='type']").val();
+      formData["type"] = value;
+      console.log(formData);
+      sideScrollCards('wallSlideWrapper', 'slide', 'next');
+    }
+   
+  </script>
+</body>
+
+</html>
